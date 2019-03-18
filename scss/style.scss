@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4vw;
+  text-align: center;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    #session, #break {
+      padding: 120px 0 80px;
+      width: 50%;
+      }
+    }
+  #toggle {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    font-size: 7vw;
+    height: 25vw;
+    justify-content: center;
+    width: 25vw;
+    }
+  #footer {
+    align-items: center;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100vw;
+    #reset {
+      padding: 3vh;
+      width: 20vw;
+      }
+    .resetHide {
+      display: none;
+      }
+    }
+  }
+
+.buttonsHide {
+  visibility: hidden;
+  margin-top: -320px;
+  }
+#toggle:hover, #reset:hover {
+  opacity: 0.5;
+  }
+
+/*CHANGE OF STYLES*/
+.redStyle {
+  background-color: red;
+  color: yellow;
+  }
+.blueStyle {
+  background-color: blue;
+  color: white;
+  height: 100vh;
+  }
+.orangeStyle {
+  background-color: orange;
+  color: yellow;
+  height: 100vh;
+  }
+
+.redBorder { border: 0.5vw solid red; }
+.whiteBorder { border: 0.5vw solid white; }
+.yellowBorder { border: 0.5vw solid yellow; }
