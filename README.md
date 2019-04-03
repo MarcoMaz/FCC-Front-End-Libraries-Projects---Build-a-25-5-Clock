@@ -17,9 +17,9 @@ When a session break reaches zero a session countdown starts.
 </ul>
 <h2>Where to find the project...</h2>
 <p>
-Click <a href="https://s.codepen.io/vinniezappa/debug/mOBZLK/yokZEWjvDxLA" target="_blank"> here</a>
+Click <a href="https://s.codepen.io/vinniezappa/full/mOBZLK/yokZEWjvDxLA" target="_blank"> here</a>
 or in the image below <br/><br/>
-<a href="https://s.codepen.io/vinniezappa/debug/mOBZLK/yokZEWjvDxLA" target="_blank">
+<a href="https://s.codepen.io/vinniezappa/full/mOBZLK/yokZEWjvDxLA" target="_blank">
 <img src="https://www.dropbox.com/s/hme8ltfdlaler8j/06-pomodoro-clock-JS.jpg?raw=1" target="_blank">
 </a>
 </p>
