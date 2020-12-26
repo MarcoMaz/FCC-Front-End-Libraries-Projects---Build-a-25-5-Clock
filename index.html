@@ -1,52 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>Pomodoro Clock JS</title>
-  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock JS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-
-  <div id="container" class="redStyle">
-  <div id="buttons">
-    <div id="session">
-      <div>Session Length</div>
-      <span id='sessionMinus'>-</span>
-      <span id='sessionValue'></span>
-      <span id='sessionPlus'>+</span>  
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container" class="redStyle">
+    <div id="buttons">
+      <div id="session">
+        <div>Session Length</div>
+        <span id='sessionMinus'>-</span>
+        <span id='sessionValue'></span>
+        <span id='sessionPlus'>+</span>  
+      </div>
+      <div id="break">
+        <div>Break Length</div>
+        <span id='breakMinus'>-</span>
+        <span id='breakValue'></span>
+        <span id='breakPlus'>+</span>  
+      </div>    
     </div>
-    <div id="break">
-      <div>Break Length</div>
-      <span id='breakMinus'>-</span>
-      <span id='breakValue'></span>
-      <span id='breakPlus'>+</span>  
-    </div>    
+    <div id='toggle' class="yellowBorder">
+      <span id="minutes"></span>
+      <span id="dots"></span>
+      <span id="seconds"></span>
+    </div>
+    <div id="footer">
+      <div id="reset" class="resetHide">Reset Me!</div>
+    </div>
   </div>
-  <div id='toggle' class="yellowBorder">
-    <span id="minutes"></span>
-    <span id="dots"></span>
-    <span id="seconds"></span>
-  </div>
-  <div id="footer">
-    <div id="reset" class="resetHide">Reset Me!</div>
-  </div>
-</div>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+  <script src="index.js"></script>
+  </body>
 </html>
